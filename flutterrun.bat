@@ -3,7 +3,7 @@ echo =====================================
 echo     Flutter + scrcpy (USB to WiFi)
 echo =====================================
 
-set SCRCPY_EXE=C:\Users\FlowUP\Documents\Github\FlutterCast\scrcpy-win64-v3.3.3\scrcpy.exe
+set "SCRCPY_EXE=%~dp0scrcpy-win64-v3.3.3\scrcpy.exe"
 set PORT=5555
 
 echo.
